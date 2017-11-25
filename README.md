@@ -1,8 +1,11 @@
-Under construction page! 
-========================
+# Streaming Wbsite #
 
-Hey,
+### Ongoing project - any and all code here maybe unstable and may not work or meet the criteria ###
 
-So basically what I have done so far is create a fancy landing spot for those curious enough to have a gander at the website before it's done!
+ - - - - -
 
-Terrible things Humans are - gues i'll have to fit their needs with this...
+The main point is to curate a website (http://www.megatroll.se/) and add any cool tools/features related to streaming on YouTube or Twitch.
+
+ - - - -
+
+*Feel free to copy parts of the website (or you could steal it all), if you do please mention and/or reference my github. Thx*
