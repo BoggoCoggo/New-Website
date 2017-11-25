@@ -61,7 +61,7 @@ function getLink()
         }
       } 
     }
-    var x = text.includes("live")
+    var x = text.includes("live")	//Need to find what YouTube livestream links contain(different to normal videos) for this to work.
     if (x === true) {
         document.getElementById("online").innerHTML = "Stream is live";
     }
