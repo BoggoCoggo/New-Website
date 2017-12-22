@@ -1,4 +1,4 @@
-# ReadME #
+# README #
 
 ### Project Is Almost Finished!! ###
 
