@@ -1,6 +1,6 @@
 # Streaming Website #
 
-### Ongoing project - any and all code here maybe unstable and may not work or meet the criteria ###
+### Project Is Almost Finished!! ###
 
  - - - - -
 
