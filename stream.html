@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>NNO Streams</title>
+      <link href="https://fonts.googleapis.com/css?family=work+sans:300">
+      <link href="NEWstyle.css" rel="stylesheet" type="text/css">
+      <meta charset="UTF-8">
+  </head>
+
+<body>
+    <header>
+        <nav weight="200">
+            <ul>
+                <li><img src="NewLogo.ico"></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="stream.html">Stream</a></li>
+                <li><a href="merch.html">Merch</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+	</header>
+</body>
+    
+<!--- Below is the fun bits -->
+<div class="bgimg">
+    <div class="middle">
+        <!-- <script src="streamCheck.js"></script> -->
+        <p id="online" style="font-size: 100px; font-weight: 1000">Stream Offline..</p>
+        <a class="button" href="javascript(getLink())" id="link">YouTube</a>
+    </div>
+</div>
+    
+<script>
+function getLink()
+{
+    var file = new XMLHttpRequest();
+    file.open("GET", "http://www.megatroll.se/txt/streamlink.txt", true);
+    file.onreadystatechange = function() {
+      if (file.readyState === 4) {  // Makes sure the document is ready to parse
+        if (file.status === 200) {  // Makes sure it's found the file
+          var text = file.responseText;
+          document.getElementById("link").href = text;
+        }
+      } 
+    }
+    var x = text.includes("live")
+    if (x === true) {
+        document.getElementById("online").innerHTML = "Stream is live";
+    }
+}
+</script>
+
+
+    
+</html>

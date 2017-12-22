@@ -1,0 +1,254 @@
+/*html, body {
+  margin: 10;
+}*/
+
+h1, h2, a {
+  font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase; 
+}
+
+.bgimg {
+  background: url("starry-sky.jpg") no-repeat center center;
+  background-size: cover;
+  height: 950px;
+  text-align: center;  
+}
+
+.middle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button {
+    background-color: darkcyan;
+    border: none;
+    color: lightgoldenrodyellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+  color: darkcyan
+}
+
+.container {
+  background-size: 100%;
+}
+
+/* Main */
+.main {
+  text-align: center;
+  background-color: dodgerblue;
+  background-size: cover;
+  height: 1000px;
+}
+
+.main .container {
+  position: relative;
+  top: 50px;
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 150px;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Supporting */
+.supporting {
+  background-color: #0080FF;
+  padding: 50px 0 60px;
+  text-align: center;
+}
+
+.supporting .container {
+  position: relative;
+  max-width: 1190px;
+}
+
+.supporting .col {
+  float: left;
+  padding: initial;
+  width: 33.3333333333%;
+}
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  background: url("starry-sky.jpg") no-repeat center center;
+  background-size: cover;
+  height: 950px;
+  text-align: center;
+}
+
+.feature .container {
+  position: center;
+  top: 00px;
+}
+
+.feature h1 {
+  color: #fff9 ;
+  top: 0px;
+  font-size: 100px;
+}
+
+.feature p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.feature .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* Footer */
+.footer {
+  background: url("starry-sky.jpg") no-repeat center center;
+  background-size: cover;
+  height: 950px;
+  text-align: center;
+}
+
+.footer .container {
+  top: 200px;
+}
+
+.footer h1 {
+  color: lightgrey;
+  font-size: 80px;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 80px;
+  margin: 0 0 0 0;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.footer .btn {
+  background-color: lightblue;
+  color: #fff;
+  font-size: 18px;
+  padding: 30px 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background: darkcyan;
+  color:#000;
+}
+
+nav {
+  float: right;
+  background-image: url(milky-way.jpg);
+  width: 100%;
+}
+
+nav ul {
+  margin-left: 200px;
+  margin: 0;
+  padding: 0;
+  list-style: circle;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+nav logo {
+    padding-left: 9px;
+}
+
+nav a {
+  color: cyan;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: darkcyan;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: darkcyan;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
