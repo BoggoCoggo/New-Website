@@ -3,6 +3,7 @@ Changelog
 
 * Nov23: Updated website with a fancy looking Coming Soon page.
 * Nov25(17:40): Untested Stream page that should update if NNO go live.
+* Dec22: ***Major Updates Pushed*** to the 'SUPER-SECRET-BETA' branch - needs further testing, website should be up by the New Year. Updates include a new UX as well as a redisgned nav bar, this for now is a template which will be shortly filled in for the actual website.
 
 ## TODO: ##
 - [x] Finish Stream page, including javascript for outputting the stream link on website and changing site if there is stream
