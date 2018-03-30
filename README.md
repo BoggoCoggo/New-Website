@@ -24,4 +24,4 @@ Changelog
 - [ ] Create Desktop exe which can be run to change the text/pictures/links on website for that stream.
 - [x] Finish rest of site, fill in info, etc.
 
-### Fyi, i'm just putting my code on here any extra personalisations won't be addded. Feel free to take parts of my code - the stream code is especially interesting ###
+### Fyi, i'm just putting my code on here any extra personalisations won't be addded. Feel free to take any part of my code, feel free to credit me if you wish. ###
